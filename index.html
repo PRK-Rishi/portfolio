@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishikesh P - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hamburger Sidebar -->
+  <div class="hamburger" onclick="toggleSidebar()">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="sidebar">
+    <ul>
+      <li><a href="#about" onclick="closeSidebar()">About Me</a></li>
+      <li><a href="#experience" onclick="closeSidebar()">Experience</a></li>
+      <li><a href="#skills" onclick="closeSidebar()">Skills</a></li>
+      <li><a href="#projects" onclick="closeSidebar()">Projects</a></li>
+      <li><a href="#resume" onclick="closeSidebar()">Resume</a></li>
+      <li><a href="#contact" onclick="closeSidebar()">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <center>
+        <h1>RISHIKESH P</h1>
+        <h3>Tech Enthusiast | Future Builder | Creative Thinker</h3>
+      </center>
+      <h2>About Me</h2>
+      <p>I am a B.Tech student specializing in Artificial Intelligence and Data Science. I enjoy crafting creative web applications and solving challenging AI problems.</p>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <p><strong>Web Developer Intern - MagnusVista</strong></p>
+      <p>Developed a responsive and user-friendly quiz application, enhancing engagement and usability using Html,Css,JavaScript,React Js</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="images/html5.png" alt="HTML5">
+          <p>HTML5</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/css3.png" alt="CSS3">
+          <p>CSS3</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/javascript.png" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/python.png" alt="Python">
+          <p>Python</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/machine-learning.png" alt="Machine Learning">
+          <p>Machine Learning</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/database.png" alt="DBMS">
+          <p>DBMS</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/react.png" alt="ReactJs">
+          <p>ReactJs</p>
+        </div>
+        <div class="skill-card">
+          <img src="images/dsa.png" alt="DSA">
+          <p>Data Structures and Algorithms</p>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/weather-system.jpg" alt="Weather Monitoring System">
+          <h3>Weather Monitoring System</h3>
+          <p>Developed a cutting-edge weather monitoring system utilizing Arduino and ESP32 module by integrating multiple 
+            sensors . Implemented Python-based rain prediction algorithm leveraging machine learning, achieving a 90% accuracy 
+            rate. Enabled remote user notifications via API integration.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/attendance-system.jpg" alt="Attendance System">
+          <h3>Automated Attendance System</h3>
+          <p> Developed an automated attendance system using facial recognition powered by K-Nearest Neighbors (KNN) 
+           algorithm, achieving a 85% reduction in manual errors and streamlining administrative processes.</p>
+        </div>
+        <div class="project-card">
+          <img src="images/disease-prediction.jpg" alt="Disease Prediction">
+          <h3>Multiple Disease Prediction</h3>
+          <p> Developed a machine learning model using SVM to accurately detect Disease from vocal features, 
+           achieving a test accuracy of 80%. Employed Python, Pandas, Scikit-Learn, and data preprocessing techniques for 
+           feature extraction and model training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <a href="RISHIKESH-P-FlowCV-Resume-20241214.pdf" target="_blank" class="btn">View/Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/rishikesh-p-3a51a1256" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/PRK-Rishi" target="_blank">
+          <img src="images/github.png" alt="GitHub">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
